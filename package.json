@@ -1,6 +1,6 @@
 {
   "name": "statuscomponent",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "xampr status component",
   "main": "./build/index.js",
   "scripts": {
@@ -16,21 +16,27 @@
     "url": "https://github.com/aparnaCilusnai/statuscomponent/issues"
   },
   "homepage": "https://github.com/aparnaCilusnai/statuscomponent#readme",
-  "dependencies": {
-    "@babel/plugin-syntax-jsx": "^7.12.1",
-    "@babel/preset-react": "^7.12.10",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "material-svg-icons-react": "^1.0.59",
-    "ramda": "^0.27.1",
-    "react": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
   "peerDependencies": {
     "metro-react-native-babel-preset": "^0.64.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "babel-preset-react-app": "^7.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "^2.1.5",
+    "rimraf": "^2.6.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "material-svg-icons-react": "^1.0.59",
+    "ramda": "^0.27.1"
   }
 }
